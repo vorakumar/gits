@@ -187,7 +187,6 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Neo4j.iml" filepath="$PROJECT_DIR$/Neo4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/gits.iml" filepath="$PROJECT_DIR$/gits.iml" />
     </modules>
   </component>
