@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5be46fe1-0f29-45eb-89df-8a988e6d292e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/nosql/neo4j/ApplicationProperties.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/nosql/neo4j/EdgeType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/nosql/neo4j/GraphDatabase.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/nosql/neo4j/ApplicationProperties.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/properties/ApplicationProperties.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/nosql/neo4j/EdgeType.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/storage/EdgeType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/nosql/neo4j/GraphDatabase.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/storage/GraphDatabase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/populate/Import.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gits.iws" afterPath="$PROJECT_DIR$/gits.iws" />
     </list>
     <ignored path="Neo4J.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,10 +87,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphDatabase.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GraphDatabase.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/storage/GraphDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="0" selection-start="2147" selection-end="2147" vertical-scroll-proportion="1.3178807">
+            <state line="79" column="0" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Import.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/populate/Import.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.09933775">
               <folding />
             </state>
           </provider>
@@ -133,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/nosql/neo4j/Relationship.java" />
         <option value="$PROJECT_DIR$/test/com/nosql/neo4j/CreateNode.java" />
         <option value="$PROJECT_DIR$/src/com/nosql/neo4j/PopulateNode.java" />
         <option value="$PROJECT_DIR$/src/com/nosql/neo4j/GraphForBook.java" />
@@ -149,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/com/nosql/neo4j/GraphDatabase.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/neo4j/GraphDatabase.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/storage/GraphDatabase.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/populate/Import.java" />
       </list>
     </option>
   </component>
@@ -258,6 +262,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="properties" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thoughtworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="populate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -540,9 +570,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="833" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3277311" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3277311" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946082" sideWeight="0.6" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -687,7 +717,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/storage/GraphDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="2147" selection-end="2147" vertical-scroll-proportion="1.3178807">
+        <state line="79" column="0" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/populate/Import.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.09933775">
           <folding />
         </state>
       </provider>
