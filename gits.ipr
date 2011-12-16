@@ -38,7 +38,6 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
-  <component name="IdProvider" IDEtalkID="961B41E99AFFBD9DFAD8DE00339246C8" />
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" />
     <option name="OPTION_SCOPE" value="protected" />
@@ -188,7 +187,6 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Neo4j.iml" filepath="$PROJECT_DIR$/Neo4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/gits.iml" filepath="$PROJECT_DIR$/gits.iml" />
     </modules>
   </component>
@@ -201,7 +199,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
   </component>
-  <component name="WebServicesPlugin" addRequiredLibraries="true" />
   <component name="libraryTable">
     <library name="lib">
       <CLASSES>
