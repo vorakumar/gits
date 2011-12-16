@@ -188,6 +188,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Neo4j.iml" filepath="$PROJECT_DIR$/Neo4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gits.iml" filepath="$PROJECT_DIR$/gits.iml" />
     </modules>
   </component>
   <component name="ProjectResources">
@@ -197,7 +198,7 @@
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="hg4idea" />
+    <mapping directory="" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="lib">

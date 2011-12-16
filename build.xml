@@ -9,7 +9,6 @@
     <property name="classes" value="${build}/classes"/>
     <property name="dist" value="${build}/dist"/>
     <property name="lib" value="lib"/>
-    <property file="${basedir}/build.properties"/>
     <property name="db.location" value="${db.location}"/>
 
     <path id="compile.classpath">
