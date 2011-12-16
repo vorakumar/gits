@@ -1,4 +1,4 @@
-package com.nosql.neo4j;
+package com.thoughtworks.properties;
 
 public class ApplicationProperties {
     public static final String databaseLocation = "target/data";

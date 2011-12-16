@@ -1,5 +1,6 @@
-package com.nosql.neo4j;
+package com.thoughtworks.storage;
 
+import com.thoughtworks.properties.ApplicationProperties;
 import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.Transaction;
@@ -16,12 +17,8 @@ public class GraphDatabase {
 
     private GraphDatabaseService startDatabase() {
         graphDb = new EmbeddedGraphDatabase(ApplicationProperties.databaseLocation);
-        //<codeFragment name = "indexing">
         Index<Node> nodeIndex = graphDb.index().forNodes("nodes");
-        //</codeFragment>
         registerShutdownHookForNeo();
-        System.out.println("Started database");
-
         return graphDb;
     }
 

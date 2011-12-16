@@ -37,7 +37,7 @@
     </target>
 
     <target name="run" depends="compile" description="Run the Neo4J Code">
-        <java fork="true" classname="com.nosql.neo4j.RunGraph">
+        <java fork="true" classname="com.thoughtworks.storage.RunGraph">
             <classpath refid="compile.classpath"/>
             <classpath location="${classes}"/>
             <jvmarg value="-Ddb.location=${db.location}"/>

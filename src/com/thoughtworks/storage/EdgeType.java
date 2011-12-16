@@ -1,4 +1,4 @@
-package com.nosql.neo4j;
+package com.thoughtworks.storage;
 
 import org.neo4j.graphdb.RelationshipType;
 
